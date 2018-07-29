@@ -1,0 +1,142 @@
+$primaryColor: rgb(204, 104, 11);
+$secondaryColor: rgb(13, 48, 201);
+$gray: #f5f5f5;
+$dark: #444;
+$white: #fff;
+
+body {
+  font-family: "Verdana", Arial;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  background: $gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.site-title {
+  color: $primaryColor;
+  padding: 10px;
+}
+
+.navbar {
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    margin-right: 10px;
+    background: $primaryColor;
+    color: $white;
+    padding: 10px 20px;
+    font-weight: 600;
+  }
+
+  a:hover {
+    background: $secondaryColor;
+  }
+}
+
+.container {
+  padding: 0;
+  margin: 0 10%;
+}
+
+.about-wrap {
+  display: flex;
+  // justify-content: space-around;
+}
+
+.about-me {
+  h2 {
+    margin: 50px 0 0 0;
+  }
+}
+
+.wrap {
+  p {
+    margin: 40px 0;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+  }
+
+  .btn-a {
+    padding: 10px;
+    color: $dark;
+    background: $gray;
+    margin-top: 120px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+  }
+
+  .btn-b {
+    @extend .btn-a;
+    background: #eee;
+  }
+
+  a:hover {
+    background: #ddd;
+  }
+}
+
+
+
+.work ul{
+	display: flex;
+	flex-direction: row;
+
+	
+
+	li{
+		margin-right: 5px;
+	}
+
+	
+img{
+	width: 100%;
+	overflow: hidden;
+}
+
+}
+
+
+footer{
+
+
+	background:$primaryColor;
+
+
+	.footer-wrap{
+		color: $white;
+		display: flex;
+		
+	}
+
+
+	.footer-2{
+	
+	
+	
+	}
+
+}
+
+
+
+
